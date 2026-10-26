@@ -31,9 +31,9 @@ Las constantes principales están definidas al inicio de `jornada.php`:
 
 | Constante | Valor por Defecto | Descripción |
 | :--- | :--- | :--- |
-| `ACCESS_PIN` | `'2708'` | Clave de acceso numérico para el sistema |
+| `ACCESS_PIN` | `'1234'` | Clave de acceso numérico para el sistema |
 | `DATA_FILE` | `asistencia_db.json` | Ruta del archivo de persistencia JSON |
-| `DEFAULT_RATE` | `$15.00` | Tarifa horaria base por defecto |
+| `DEFAULT_RATE` | `$10.00` | Tarifa horaria base por defecto |
 | `LUNCH_MINUTES` | `30` | Minutos descontados por turno para receso |
 | `OVERTIME_LIMIT` | `40.0` | Umbral de horas regulares por semana |
 | `SPECIAL_MULTIPLIER` | `1.5` | Multiplicador para horas extra y días festivos |
@@ -103,7 +103,7 @@ El archivo se genera automáticamente al primer inicio si no existe:
    http://localhost:8000
    ```
 
-4. Ingresa el PIN por defecto (`2708`).
+4. Ingresa el PIN por defecto (`1234`).
 
 ---
 
