@@ -22,7 +22,7 @@ require_once "./config.php";
  * CONFIGURACIÓN
  * ============================================================ */
 
-const ACCESS_PIN = '';
+const ACCESS_PIN = '2708';
 
 const DATA_FILE = __DIR__ . '/asistencia_db.json';
 
